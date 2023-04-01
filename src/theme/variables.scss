@@ -3,6 +3,34 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  ion-slides {
+    background-color: var(--cor-terciaria);
+  }
+
+  ion-avatar {
+    padding: 5px;
+  }
+  
+  ion-card {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+
+  ion-card-title {
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  ion-card-subtitle {
+    margin: 0;
+    color: #000000;
+  }
+
+  ion-card-header {
+    padding: 0;
+  }
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
